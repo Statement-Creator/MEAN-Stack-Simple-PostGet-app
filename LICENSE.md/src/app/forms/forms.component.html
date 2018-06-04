@@ -1,0 +1,4 @@
+<form #frm="ngForm" (ngSubmit)="postComment(frm.value)" >
+    <input name="commentText" required  type="text"   [ngModel]="commentText">
+    <input type="submit">
+  </form>
